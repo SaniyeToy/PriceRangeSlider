@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		072665782A1D023E00012A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072665772A1D023E00012A5D /* AppDelegate.swift */; };
 		0726657A2A1D023E00012A5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072665792A1D023E00012A5D /* SceneDelegate.swift */; };
-		0726657C2A1D023E00012A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726657B2A1D023E00012A5D /* ViewController.swift */; };
+		0726657C2A1D023E00012A5D /* PriceRangeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726657B2A1D023E00012A5D /* PriceRangeSliderViewController.swift */; };
 		0726657F2A1D023E00012A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0726657D2A1D023E00012A5D /* Main.storyboard */; };
 		072665812A1D024000012A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072665802A1D024000012A5D /* Assets.xcassets */; };
 		072665842A1D024000012A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072665822A1D024000012A5D /* LaunchScreen.storyboard */; };
 		0726658F2A1D024000012A5D /* PriceRangeSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726658E2A1D024000012A5D /* PriceRangeSliderTests.swift */; };
 		072665992A1D024000012A5D /* PriceRangeSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072665982A1D024000012A5D /* PriceRangeSliderUITests.swift */; };
 		0726659B2A1D024000012A5D /* PriceRangeSliderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726659A2A1D024000012A5D /* PriceRangeSliderUITestsLaunchTests.swift */; };
+		072665A82A1D0A8D00012A5D /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072665A72A1D0A8D00012A5D /* RangeSlider.swift */; };
+		072665AC2A1D0AC900012A5D /* RangeSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072665AB2A1D0AC900012A5D /* RangeSliderThumbLayer.swift */; };
+		072665AE2A1D0AEE00012A5D /* RangeSliderTrackerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072665AD2A1D0AEE00012A5D /* RangeSliderTrackerLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		072665742A1D023E00012A5D /* PriceRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		072665772A1D023E00012A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		072665792A1D023E00012A5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0726657B2A1D023E00012A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0726657B2A1D023E00012A5D /* PriceRangeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeSliderViewController.swift; sourceTree = "<group>"; };
 		0726657E2A1D023E00012A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		072665802A1D024000012A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		072665832A1D024000012A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		072665942A1D024000012A5D /* PriceRangeSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceRangeSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072665982A1D024000012A5D /* PriceRangeSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeSliderUITests.swift; sourceTree = "<group>"; };
 		0726659A2A1D024000012A5D /* PriceRangeSliderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeSliderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		072665A72A1D0A8D00012A5D /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		072665AB2A1D0AC900012A5D /* RangeSliderThumbLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderThumbLayer.swift; sourceTree = "<group>"; };
+		072665AD2A1D0AEE00012A5D /* RangeSliderTrackerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderTrackerLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,10 @@
 		072665762A1D023E00012A5D /* PriceRangeSlider */ = {
 			isa = PBXGroup;
 			children = (
+				072665A92A1D0A9E00012A5D /* Helpers */,
 				072665772A1D023E00012A5D /* AppDelegate.swift */,
 				072665792A1D023E00012A5D /* SceneDelegate.swift */,
-				0726657B2A1D023E00012A5D /* ViewController.swift */,
+				0726657B2A1D023E00012A5D /* PriceRangeSliderViewController.swift */,
 				0726657D2A1D023E00012A5D /* Main.storyboard */,
 				072665802A1D024000012A5D /* Assets.xcassets */,
 				072665822A1D024000012A5D /* LaunchScreen.storyboard */,
@@ -125,6 +132,24 @@
 				0726659A2A1D024000012A5D /* PriceRangeSliderUITestsLaunchTests.swift */,
 			);
 			path = PriceRangeSliderUITests;
+			sourceTree = "<group>";
+		};
+		072665A92A1D0A9E00012A5D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				072665AA2A1D0AA600012A5D /* RangeSlider */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		072665AA2A1D0AA600012A5D /* RangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				072665A72A1D0A8D00012A5D /* RangeSlider.swift */,
+				072665AB2A1D0AC900012A5D /* RangeSliderThumbLayer.swift */,
+				072665AD2A1D0AEE00012A5D /* RangeSliderTrackerLayer.swift */,
+			);
+			path = RangeSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0726657C2A1D023E00012A5D /* ViewController.swift in Sources */,
+				072665AC2A1D0AC900012A5D /* RangeSliderThumbLayer.swift in Sources */,
+				072665AE2A1D0AEE00012A5D /* RangeSliderTrackerLayer.swift in Sources */,
+				072665A82A1D0A8D00012A5D /* RangeSlider.swift in Sources */,
+				0726657C2A1D023E00012A5D /* PriceRangeSliderViewController.swift in Sources */,
 				072665782A1D023E00012A5D /* AppDelegate.swift in Sources */,
 				0726657A2A1D023E00012A5D /* SceneDelegate.swift in Sources */,
 			);
