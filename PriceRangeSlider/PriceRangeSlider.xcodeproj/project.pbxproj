@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072665782A1D023E00012A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072665772A1D023E00012A5D /* AppDelegate.swift */; };
+		0726657A2A1D023E00012A5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072665792A1D023E00012A5D /* SceneDelegate.swift */; };
+		0726657C2A1D023E00012A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726657B2A1D023E00012A5D /* ViewController.swift */; };
+		0726657F2A1D023E00012A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0726657D2A1D023E00012A5D /* Main.storyboard */; };
+		072665812A1D024000012A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072665802A1D024000012A5D /* Assets.xcassets */; };
+		072665842A1D024000012A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072665822A1D024000012A5D /* LaunchScreen.storyboard */; };
+		0726658F2A1D024000012A5D /* PriceRangeSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726658E2A1D024000012A5D /* PriceRangeSliderTests.swift */; };
+		072665992A1D024000012A5D /* PriceRangeSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072665982A1D024000012A5D /* PriceRangeSliderUITests.swift */; };
+		0726659B2A1D024000012A5D /* PriceRangeSliderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726659A2A1D024000012A5D /* PriceRangeSliderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0726658B2A1D024000012A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0726656C2A1D023E00012A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072665732A1D023E00012A5D;
+			remoteInfo = PriceRangeSlider;
+		};
+		072665952A1D024000012A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0726656C2A1D023E00012A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072665732A1D023E00012A5D;
+			remoteInfo = PriceRangeSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072665742A1D023E00012A5D /* PriceRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		072665772A1D023E00012A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		072665792A1D023E00012A5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0726657B2A1D023E00012A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0726657E2A1D023E00012A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		072665802A1D024000012A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072665832A1D024000012A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		072665852A1D024000012A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0726658A2A1D024000012A5D /* PriceRangeSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceRangeSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0726658E2A1D024000012A5D /* PriceRangeSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeSliderTests.swift; sourceTree = "<group>"; };
+		072665942A1D024000012A5D /* PriceRangeSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceRangeSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		072665982A1D024000012A5D /* PriceRangeSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeSliderUITests.swift; sourceTree = "<group>"; };
+		0726659A2A1D024000012A5D /* PriceRangeSliderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeSliderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072665712A1D023E00012A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072665872A1D024000012A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072665912A1D024000012A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0726656B2A1D023E00012A5D = {
+			isa = PBXGroup;
+			children = (
+				072665762A1D023E00012A5D /* PriceRangeSlider */,
+				0726658D2A1D024000012A5D /* PriceRangeSliderTests */,
+				072665972A1D024000012A5D /* PriceRangeSliderUITests */,
+				072665752A1D023E00012A5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		072665752A1D023E00012A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				072665742A1D023E00012A5D /* PriceRangeSlider.app */,
+				0726658A2A1D024000012A5D /* PriceRangeSliderTests.xctest */,
+				072665942A1D024000012A5D /* PriceRangeSliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		072665762A1D023E00012A5D /* PriceRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				072665772A1D023E00012A5D /* AppDelegate.swift */,
+				072665792A1D023E00012A5D /* SceneDelegate.swift */,
+				0726657B2A1D023E00012A5D /* ViewController.swift */,
+				0726657D2A1D023E00012A5D /* Main.storyboard */,
+				072665802A1D024000012A5D /* Assets.xcassets */,
+				072665822A1D024000012A5D /* LaunchScreen.storyboard */,
+				072665852A1D024000012A5D /* Info.plist */,
+			);
+			path = PriceRangeSlider;
+			sourceTree = "<group>";
+		};
+		0726658D2A1D024000012A5D /* PriceRangeSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0726658E2A1D024000012A5D /* PriceRangeSliderTests.swift */,
+			);
+			path = PriceRangeSliderTests;
+			sourceTree = "<group>";
+		};
+		072665972A1D024000012A5D /* PriceRangeSliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				072665982A1D024000012A5D /* PriceRangeSliderUITests.swift */,
+				0726659A2A1D024000012A5D /* PriceRangeSliderUITestsLaunchTests.swift */,
+			);
+			path = PriceRangeSliderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		072665732A1D023E00012A5D /* PriceRangeSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0726659E2A1D024000012A5D /* Build configuration list for PBXNativeTarget "PriceRangeSlider" */;
+			buildPhases = (
+				072665702A1D023E00012A5D /* Sources */,
+				072665712A1D023E00012A5D /* Frameworks */,
+				072665722A1D023E00012A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriceRangeSlider;
+			productName = PriceRangeSlider;
+			productReference = 072665742A1D023E00012A5D /* PriceRangeSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		072665892A1D024000012A5D /* PriceRangeSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072665A12A1D024000012A5D /* Build configuration list for PBXNativeTarget "PriceRangeSliderTests" */;
+			buildPhases = (
+				072665862A1D024000012A5D /* Sources */,
+				072665872A1D024000012A5D /* Frameworks */,
+				072665882A1D024000012A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0726658C2A1D024000012A5D /* PBXTargetDependency */,
+			);
+			name = PriceRangeSliderTests;
+			productName = PriceRangeSliderTests;
+			productReference = 0726658A2A1D024000012A5D /* PriceRangeSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		072665932A1D024000012A5D /* PriceRangeSliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072665A42A1D024000012A5D /* Build configuration list for PBXNativeTarget "PriceRangeSliderUITests" */;
+			buildPhases = (
+				072665902A1D024000012A5D /* Sources */,
+				072665912A1D024000012A5D /* Frameworks */,
+				072665922A1D024000012A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072665962A1D024000012A5D /* PBXTargetDependency */,
+			);
+			name = PriceRangeSliderUITests;
+			productName = PriceRangeSliderUITests;
+			productReference = 072665942A1D024000012A5D /* PriceRangeSliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0726656C2A1D023E00012A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					072665732A1D023E00012A5D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					072665892A1D024000012A5D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 072665732A1D023E00012A5D;
+					};
+					072665932A1D024000012A5D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 072665732A1D023E00012A5D;
+					};
+				};
+			};
+			buildConfigurationList = 0726656F2A1D023E00012A5D /* Build configuration list for PBXProject "PriceRangeSlider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0726656B2A1D023E00012A5D;
+			productRefGroup = 072665752A1D023E00012A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				072665732A1D023E00012A5D /* PriceRangeSlider */,
+				072665892A1D024000012A5D /* PriceRangeSliderTests */,
+				072665932A1D024000012A5D /* PriceRangeSliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072665722A1D023E00012A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072665842A1D024000012A5D /* LaunchScreen.storyboard in Resources */,
+				072665812A1D024000012A5D /* Assets.xcassets in Resources */,
+				0726657F2A1D023E00012A5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072665882A1D024000012A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072665922A1D024000012A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072665702A1D023E00012A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0726657C2A1D023E00012A5D /* ViewController.swift in Sources */,
+				072665782A1D023E00012A5D /* AppDelegate.swift in Sources */,
+				0726657A2A1D023E00012A5D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072665862A1D024000012A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0726658F2A1D024000012A5D /* PriceRangeSliderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072665902A1D024000012A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072665992A1D024000012A5D /* PriceRangeSliderUITests.swift in Sources */,
+				0726659B2A1D024000012A5D /* PriceRangeSliderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0726658C2A1D024000012A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072665732A1D023E00012A5D /* PriceRangeSlider */;
+			targetProxy = 0726658B2A1D024000012A5D /* PBXContainerItemProxy */;
+		};
+		072665962A1D024000012A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072665732A1D023E00012A5D /* PriceRangeSlider */;
+			targetProxy = 072665952A1D024000012A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0726657D2A1D023E00012A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0726657E2A1D023E00012A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		072665822A1D024000012A5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072665832A1D024000012A5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0726659C2A1D024000012A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0726659D2A1D024000012A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0726659F2A1D024000012A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6FX84R897;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceRangeSlider/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toysaniye.PriceRangeSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		072665A02A1D024000012A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6FX84R897;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceRangeSlider/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toysaniye.PriceRangeSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		072665A22A1D024000012A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6FX84R897;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toysaniye.PriceRangeSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriceRangeSlider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PriceRangeSlider";
+			};
+			name = Debug;
+		};
+		072665A32A1D024000012A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6FX84R897;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toysaniye.PriceRangeSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriceRangeSlider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PriceRangeSlider";
+			};
+			name = Release;
+		};
+		072665A52A1D024000012A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6FX84R897;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toysaniye.PriceRangeSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PriceRangeSlider;
+			};
+			name = Debug;
+		};
+		072665A62A1D024000012A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6FX84R897;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toysaniye.PriceRangeSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PriceRangeSlider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0726656F2A1D023E00012A5D /* Build configuration list for PBXProject "PriceRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0726659C2A1D024000012A5D /* Debug */,
+				0726659D2A1D024000012A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0726659E2A1D024000012A5D /* Build configuration list for PBXNativeTarget "PriceRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0726659F2A1D024000012A5D /* Debug */,
+				072665A02A1D024000012A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072665A12A1D024000012A5D /* Build configuration list for PBXNativeTarget "PriceRangeSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072665A22A1D024000012A5D /* Debug */,
+				072665A32A1D024000012A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072665A42A1D024000012A5D /* Build configuration list for PBXNativeTarget "PriceRangeSliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072665A52A1D024000012A5D /* Debug */,
+				072665A62A1D024000012A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0726656C2A1D023E00012A5D /* Project object */;
+}
