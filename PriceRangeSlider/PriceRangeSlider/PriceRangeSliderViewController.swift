@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PriceRangeSliderViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
